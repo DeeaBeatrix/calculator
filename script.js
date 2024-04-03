@@ -55,6 +55,9 @@ const calculate = (e) => {
     if (operatii === '/') {
       calculatorResult.innerText = firstNumber / secondNumber;
     }
+    if (operatii === '/' && secondNumber <= 0) {
+      alert('Please enter a valid number');
+    }
   }
 };
 

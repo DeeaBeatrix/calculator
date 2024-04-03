@@ -18,6 +18,10 @@
   gap: 24px;
 }
 
+.operatii {
+  border-width: 0;
+}
+
 .calculator-number-input {
   padding-top: 8px;
   padding-bottom: 8px;
